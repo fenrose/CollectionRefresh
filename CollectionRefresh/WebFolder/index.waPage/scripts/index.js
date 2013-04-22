@@ -9,8 +9,9 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	button4.click = function button4_click (event)// @startlock
 	{// @endlock
-	//sources.person.collectionRefresh();
-		
+	sources.person.collectionRefresh();
+	
+	/*	
 	var selArray = $$('dataGrid1').getSelectedRows ();
 	
 	var setRow = function (){
@@ -23,7 +24,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 			
 			}
 		});
-			
+	*/		
 	};// @lock
 	
 
