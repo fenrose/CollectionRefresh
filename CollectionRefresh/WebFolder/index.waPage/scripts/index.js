@@ -11,6 +11,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	{// @endlock
 	sources.person.collectionRefresh();
 	
+	/*
+	A workaround proposed by Vegar Ringdal
 	/*	
 	var selArray = $$('dataGrid1').getSelectedRows ();
 	
